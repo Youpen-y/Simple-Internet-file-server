@@ -3,7 +3,7 @@
 */
 
 #include<sys/types.h>
-#include<sys/fcntl.h>
+#include<sys/fcntl.h>		/* for nonblocking */
 
 #include<sys/socket.h>
 #include<netinet/in.h>
