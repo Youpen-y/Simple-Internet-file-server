@@ -1,7 +1,7 @@
 /*  		Client code
  *	Request a file from the server program
  * Note that: Code need a Unix/Linux environment.
- * /
+ */
  
 #include<sys/types.h>
 #include<sys/socket.h>
