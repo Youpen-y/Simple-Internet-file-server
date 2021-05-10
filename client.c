@@ -1,6 +1,5 @@
 /*  		Client code
  *	Request a file from the server program
- * Note that: Code need a Unix/Linux environment.
  */
  
 #include<sys/types.h>
@@ -10,6 +9,8 @@
 
 #define SERVER_PORT 12345	/* arbitrary, but client & server must agree, range from 1024 to 65535 */
 #define BUF_SIZE  4096		/* block transfer size */
+
+void fatal(char *string);
 
 int main(int argc, char **argv)
 {
@@ -42,7 +43,7 @@ int main(int argc, char **argv)
 	}
 }
 
-fatal(char *string)
+void fatal(char *string)
 {
 	printf("%s\n", string);
 	exit(1);
