@@ -1,5 +1,5 @@
 /*  		Client code
- *	Request a file from the server program
+ *	Request a file from the server program by IPv4, TCP
  */
  
 #include<sys/types.h>
